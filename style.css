@@ -1,0 +1,36 @@
+*{
+  font-family: arial;
+  box-sizing: border-box;
+}
+
+body{
+  background: black;
+  color: white;
+}
+
+h1{
+  text-align: center;
+}
+
+table, th, td{
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+table{
+  border-top: none;
+  border-left: none;
+}
+
+th, td{
+  padding: 10px;
+}
+
+.corner{
+  border-top: none;
+  border-left: none;
+}
+
+.wrapTable{
+  overflow-x: auto
+}
